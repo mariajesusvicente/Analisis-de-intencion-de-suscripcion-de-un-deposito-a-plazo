@@ -157,9 +157,11 @@ Then open `Analisis-de-intencion-de-suscripcion-de-un-deposito-a-plazo.ipynb` an
 
 ## 📁 Project Structure
 
+ 
 ```
 ├── Analisis-de-intencion-de-suscripcion-de-un-deposito-a-plazo.ipynb   # Full analysis
 ├── bank-full-recodificada.csv                                         # Recoded UCI dataset
+├── LICENSE                                                            # MIT License
 └── README.md
 ```
 
@@ -174,4 +176,5 @@ Then open `Analisis-de-intencion-de-suscripcion-de-un-deposito-a-plazo.ipynb` an
 
 ## 📄 License
 
-MIT
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+ 
