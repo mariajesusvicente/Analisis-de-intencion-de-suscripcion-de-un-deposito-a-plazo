@@ -16,7 +16,7 @@ A Portuguese bank runs phone campaigns to sell term deposits, but only **11.7%**
 
 This project answers one question: **which clients are worth calling?**
 
-The work covers the full data-mining workflow:
+The project covers the full machine learning workflow, from raw data to an interpretable model:
 
 - **Exploratory analysis**: understand who subscribes and why, backed by statistical tests
 - **Missing-data diagnosis**: formally classify the "Unknown" values (MCAR vs MAR vs MNAR)
@@ -143,8 +143,8 @@ Naive Bayes and XGBoost were also evaluated in an earlier round (XGBoost reached
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/rosa-vazquez/bank-term-deposit-prediction.git
+cd bank-term-deposit-prediction
 pip install pandas numpy scipy statsmodels scikit-learn lightgbm xgboost matplotlib seaborn
 jupyter notebook
 ```
@@ -169,8 +169,6 @@ Then open `Analisis-de-intencion-de-suscripcion-de-un-deposito-a-plazo.ipynb` an
 
 - **Rosa Vázquez Sánchez**
 - **María Jesús Vicente Ledesma**
-
-Final project for *Técnicas Estadísticas en Minería de Datos*.
 
 ---
 
