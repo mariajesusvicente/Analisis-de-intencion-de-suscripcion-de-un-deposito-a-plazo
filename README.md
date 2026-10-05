@@ -157,13 +157,14 @@ Then open `Analisis-de-intencion-de-suscripcion-de-un-deposito-a-plazo.ipynb` an
 
 ## 📁 Project Structure
 
- 
+<pre>
 ├── Analisis-de-intencion-de-suscripcion-de-un-deposito-a-plazo.ipynb   # Full analysis
 ├── bank-full-recodificada.csv                                         # Recoded UCI dataset
 ├── requirements.txt                                                   # Python dependencies
 ├── .gitignore                                                         # Files excluded from Git
 ├── LICENSE                                                            # MIT License
 └── README.md
+</pre>
 
 ---
 
