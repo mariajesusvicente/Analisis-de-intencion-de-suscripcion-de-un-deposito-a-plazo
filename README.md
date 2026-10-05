@@ -145,7 +145,7 @@ Naive Bayes and XGBoost were also evaluated in an earlier round (XGBoost reached
 ```bash
 git clone https://github.com/rosa-vazquez/bank-term-deposit-prediction.git
 cd bank-term-deposit-prediction
-pip install pandas numpy scipy statsmodels scikit-learn lightgbm xgboost matplotlib seaborn
+pip install -r requirements.txt
 jupyter notebook
 ```
 
@@ -158,12 +158,12 @@ Then open `Analisis-de-intencion-de-suscripcion-de-un-deposito-a-plazo.ipynb` an
 ## 📁 Project Structure
 
  
-```
 ├── Analisis-de-intencion-de-suscripcion-de-un-deposito-a-plazo.ipynb   # Full analysis
 ├── bank-full-recodificada.csv                                         # Recoded UCI dataset
+├── requirements.txt                                                   # Python dependencies
+├── .gitignore                                                         # Files excluded from Git
 ├── LICENSE                                                            # MIT License
 └── README.md
-```
 
 ---
 
