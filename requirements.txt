@@ -1,0 +1,13 @@
+pandas>=2.2
+numpy>=2.0
+scipy>=1.13
+statsmodels>=0.14
+scikit-learn>=1.5
+lightgbm>=4.5
+xgboost>=2.1
+catboost>=1.2
+matplotlib>=3.9
+seaborn>=0.13
+missingno>=0.5
+pyarrow>=15.0
+jupyter
