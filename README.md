@@ -7,6 +7,7 @@ Predicting whether a bank client will subscribe to a term deposit **before the c
 ![LightGBM](https://img.shields.io/badge/LightGBM-2C8EBB)
 ![XGBoost](https://img.shields.io/badge/XGBoost-EB5E28)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rosa-vazquez/bank-term-deposit-prediction/blob/main/Analisis-de-intencion-de-suscripcion-de-un-deposito-a-plazo.ipynb)
 
 ---
 
@@ -38,6 +39,7 @@ The project covers the full machine learning workflow, from raw data to an inter
 | Class balance | 39,922 No · 5,289 Yes (**11.7% positive**) |
 
 > Variables were translated and recoded into Spanish (e.g. age grouped into life-stage segments).
+> See the full [data dictionary](docs/DATA_DICTIONARY.md) for every variable, its values and whether it is used in the model.
 
 ---
 
@@ -151,7 +153,7 @@ jupyter notebook
 
 Then open `Analisis-de-intencion-de-suscripcion-de-un-deposito-a-plazo.ipynb` and run all cells. The dataset `bank-full-recodificada.csv` is already included in the repository, in the same folder as the notebook.
 
-> 💡 Tip: the notebook runs directly in **Google Colab** without any setup. Nested CV takes about 30 minutes (KNN is the slowest model).
+> 💡 Tip: you can also run it in **Google Colab** with the badge at the top. Upload `bank-full-recodificada.csv` to the Colab session first. Nested CV takes about 30 minutes (KNN is the slowest model).
 
 ---
 
@@ -160,6 +162,8 @@ Then open `Analisis-de-intencion-de-suscripcion-de-un-deposito-a-plazo.ipynb` an
 <pre>
 ├── Analisis-de-intencion-de-suscripcion-de-un-deposito-a-plazo.ipynb   # Full analysis
 ├── bank-full-recodificada.csv                                         # Recoded UCI dataset
+├── docs/
+│   └── DATA_DICTIONARY.md                                             # Description of every variable
 ├── requirements.txt                                                   # Python dependencies
 ├── .gitignore                                                         # Files excluded from Git
 ├── LICENSE                                                            # MIT License
@@ -178,4 +182,3 @@ Then open `Analisis-de-intencion-de-suscripcion-de-un-deposito-a-plazo.ipynb` an
 ## 📄 License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
- 
